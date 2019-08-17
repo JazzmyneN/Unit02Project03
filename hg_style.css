@@ -71,10 +71,10 @@ body > .review {
 
 
 }
-body > .review > p {
+body > .all_reviews> .review > p {
     font-size: 16px;
 }
-body > .review > h3 {
+body > .all_reviews> .review > h3 {
     color: blue;
     /*this is a place holder color*/
 }
@@ -82,16 +82,19 @@ body > .game_overview {
 background: white;
 padding:5px;
 width: 500px;
-display: block;
+margin-top: 3.5%;
 }
 
 body > .game_overview > ul {
     background: white;
     padding: 5px;
     list-style: none;
-
+    margin-left: 100px;
     }
 
+body > .game_overview > ul > li {
+    padding: 10px;
+        }
 body > .game_overview > figure> img {
     float: left;
     width: 150px;
@@ -99,11 +102,16 @@ body > .game_overview > figure> img {
 }
 
 body > .game_overview > section {
-    float: left;
+   
     padding: 10px;
     margin-top: -30px;
 }
 
+body > .all_reviews {
+    margin-left:35%;
+    width: 750px;
+    margin-top: -15.75%;
+}
 
 /*home page settings*/
 
