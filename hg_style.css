@@ -68,10 +68,13 @@ body > .all_reviews > .review {
     padding: 5px;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px #f2f2f2;
+    transition: box-shadow 1s;
     border: 1px solid #f0f0f0;
     margin: 10px;
 
+}
+body > .all_reviews > .review:hover {
+    box-shadow: 0px 0px 5px 3.5px #f2f2f2;
 }
 body > .all_reviews> .review > p {
     font-size: 16px;
@@ -83,8 +86,13 @@ body > .all_reviews> .review > h3 {
 body > .game_overview {
 background: white;
 padding:10px;
-width: 500px;
+width: 250px;
+margin-left: 100px;
 margin-top: 3.5%;
+border-radius: 5px;
+box-shadow: 5px 5px 5px #f2f2f2;
+border: 1px solid #f0f0f0;
+
 }
 
 body > .game_overview > ul {
@@ -115,7 +123,7 @@ body > .game_overview > section {
 body > .all_reviews {
     margin-left:35%;
     width: 750px;
-    margin-top: -20%;
+    margin-top: -36%;
 }
 
 /*home page settings*/
@@ -127,7 +135,6 @@ body > article {
 }
 body > article > h4 {
     color: #757575;
-
 }
 body > footer {
     margin-top: 5%;
